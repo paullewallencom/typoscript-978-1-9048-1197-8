@@ -1,0 +1,13 @@
+page.10.marks.PRINT= TEXT 
+page.10.marks.PRINT {
+   value = Print preview
+   postUserFunc = tx_make_printlink 
+   postUserFunc.include_post_vars = 1 
+   postUserFunc.target = _blank 
+   postUserFunc.popup = 1 
+   postUserFunc.windowparams = 
+   resizable=yes,toolbar=no,
+   scrollbars=yes,menubar=no,
+   width=800,height=500 
+   postUserFunc.windowname = printwindow 
+}

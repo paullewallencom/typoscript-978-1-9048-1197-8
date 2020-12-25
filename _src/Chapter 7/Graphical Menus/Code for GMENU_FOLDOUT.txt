@@ -1,0 +1,36 @@
+includeLibs.gmenu_foldout = media/scripts/gmenu_foldout.php
+page.10.marks.MENU = HMENU
+page.10.marks.MENU.1 = GMENU_FOLDOUT
+page.10.marks.MENU.1.expAll=1
+
+page.10.marks.MENU.1.NO {
+   backColor = #ffffff
+   XY = 200, 20
+   10 = TEXT
+   10.text.field = title
+   10.fontFace = fileadmin/verdana.ttf
+   10.fontSize = 12
+   10.offset = 5,15
+   wrap = | <br />
+}
+
+page.10.marks.MENU.2 = TMENU
+page.10.marks.MENU.2.NO {
+  linkWrap = <br />
+}
+
+page.10.marks.MENU.1 {
+   dontLinkIfSubmenu = 1
+   stayFolded=1
+   foldSpeed = 6
+   subMenuOffset = 10,18
+   menuOffset = 200,20
+   menuBackColor = #000000
+   bottomBackColor = #cccccc
+   menuWidth = 200
+   arrowNO = media/bullets/arrow_no.gif
+   arrowACT = media/bullets/arrow_act.gif
+   arrowImgParams = hspace=4 align=top 
+   bottomContent = TEXT
+   bottomContent.value = This text is displayed under the menu
+}

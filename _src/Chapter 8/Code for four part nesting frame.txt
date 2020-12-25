@@ -1,0 +1,33 @@
+myframeset = PAGE
+top = PAGE
+bottom= PAGE
+middle=PAGE
+right=PAGE
+myframeset.typeNum = 0
+top.typeNum  = 1
+bottom.typeNum  = 2
+middle.typeNum  = 3
+right.typeNum  = 4
+top.10 = TEXT
+top.10.value = top
+bottom.10 = TEXT
+bottom.10.value = bottom
+middle.10 = TEXT
+middle.10.value = middle
+right.10 = TEXT
+right.10.value = right
+myframeset.frameSet.rows = 100,*
+myframeset.frameSet {
+   10 = FRAME
+   10.obj = top
+   20 = FRAMESET
+   20.cols = 200, *,200
+   20 {
+      10 = FRAME
+      10.obj = bottom
+      20 = FRAME
+      20.obj = middle
+      30 = FRAME
+      30.obj = right
+   }
+}

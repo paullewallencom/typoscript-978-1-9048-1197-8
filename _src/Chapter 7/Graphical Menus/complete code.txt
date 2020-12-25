@@ -1,0 +1,51 @@
+page.includeLibs.gmenu_layers = media/scripts/gmenu_layers.php
+page.10.marks.MENU = HMENU
+page.10.marks.MENU.1 = GMENU_LAYERS
+page.10.marks.MENU.1 {
+   layerStyle = position:absolute;left:0px;top:20px;
+   width:10px;visibility:hidden; 
+   xPosOffset = 20
+   xPosOffset = -20
+   lockPosition = x
+   expAll=1
+   NO {
+      backColor = #0000ff
+      XY = [10.w]+30, 20
+      10 = TEXT
+      10.text.field = title
+      10.fontFace = fileadmin/verdana.ttf
+      10.fontSize = 12
+      10.offset = 10,18
+      10.fontColor = #ffffff
+  }
+}
+page.10.marks.MENU.2 = GMENU_LAYERS
+page.10.marks.MENU.2 {
+   layerStyle = position:absolute;left:0px;top:200px;
+   width:10px;visibility:hidden;
+   xPosOffset = 20
+   yPosOffset = -130
+   lockPosition = y
+   expAll = 1
+}
+page.10.marks.MENU.2.NO { 
+   backColor = |*| #0000ff || #aaaaaa |*|
+   XY = 100, 20
+   10 = TEXT
+   10.text.field = title
+   10.offset = 10,18
+   10.fontSize = 11
+   10.fontFace = fileadmin/verdana.ttf
+   10.fontColor = |*| #ffffff|| #000000|*|
+}
+page.10.marks.MENU.3 = GMENU
+page.10.marks.MENU.3.NO {
+   backColor = |*| #0000ff || #aaaaaa |*|
+   XY = 100, 20
+   10 = TEXT
+   10.text.field = title
+   10.fontFace = fileadmin/verdana.ttf
+   10.fontSize = 10
+   10.fontColor = |*| #ffffff|| #000000|*|
+   10.offset = 10,18
+  }

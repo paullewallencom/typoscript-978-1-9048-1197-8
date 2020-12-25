@@ -1,0 +1,4 @@
+this.x= (bw.ns4)?this.css.left:this.el.offsetLeft;
+this.y= (bw.ns4)?this.css.top:this.el.offsetTop;
+this.height=(bw.ie4||bw.dom)?this.el.offsetHeight:bw.ns4?this.ref.height:0;
+this.width= (bw.ie4||bw.dom)?this.el.offsetWidth:bw.ns4?this.ref.width:0;

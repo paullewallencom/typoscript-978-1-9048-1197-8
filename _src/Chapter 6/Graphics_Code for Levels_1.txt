@@ -1,0 +1,12 @@
+page.10 = IMAGE
+page.10.file = GIFBUILDER
+page.10.file {
+   XY = 300,400
+   backColor = #c0c0c0
+   10 = BOX
+   10.dimensions = 20,20,170,200
+   10.color = #808080
+   20 = TEXT
+   20.text = Hello World!
+   20.offset = 20,90
+}

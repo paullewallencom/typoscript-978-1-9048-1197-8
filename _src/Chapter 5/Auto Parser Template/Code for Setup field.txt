@@ -1,0 +1,18 @@
+plugin.tx_automaketemplate_pi1 {
+content = FILE
+content.file = fileadmin/_temp_/hello.htm
+elements {
+   BODY.all = 1
+   BODY.all.subpartMarker = DOCUMENT_BODY
+   HEAD.all = 1
+   HEAD.all.subpartMarker = DOCUMENT_HEADER
+   HEAD.rmTagSections = title
+   DIV.all = 1
+   H1.all = 1
+}
+relPathPrefix = fileadmin/_temp_/
+}
+page = PAGE
+page.typeNum = 0
+page.config.disableAllHeaderCode=1
+page.10 =< plugin.tx_automaketemplate_pi1

@@ -1,0 +1,3 @@
+config.simulateStaticDocuments = 1
+config.simulateStaticDocuments_pEnc = md5
+config.simulateStaticDocuments_addTitle = 40

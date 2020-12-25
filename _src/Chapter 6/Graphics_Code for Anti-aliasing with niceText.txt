@@ -1,0 +1,17 @@
+page.10 = IMAGE
+page.10.file = GIFBUILDER
+page.10.file {
+   XY = 300,400
+   backColor = #c0c0c0
+   20 = TEXT
+   20.text.field = title
+   20.fontSize = 30
+   20.fontColor = black
+   20.offset = 50,30
+   30 = TEXT
+   30.text.field = title
+   30.fontSize = 30
+   30.fontColor = black
+   30.nicetext = 1
+   30.offset = 50,70
+}

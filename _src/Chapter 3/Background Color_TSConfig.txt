@@ -1,0 +1,7 @@
+RTE.default {
+   mainStyle_font = Verdana, sans-serif
+   mainStyle_size = 10
+   mainStyle_color = #003300
+   mainStyle_bgcolor = #cccccc
+   proc.dontConvBRtoParagraph=1
+}

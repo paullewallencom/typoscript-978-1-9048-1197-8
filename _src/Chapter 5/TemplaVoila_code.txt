@@ -1,0 +1,5 @@
+page = PAGE
+page.10 = TEXT
+page.10 = Hello, World!
+page.10 = USER
+page.10.userFunc = tx_templavoila_pi1->main_page

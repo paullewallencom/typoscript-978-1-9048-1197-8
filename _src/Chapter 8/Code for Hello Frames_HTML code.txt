@@ -1,0 +1,9 @@
+</head>
+   <frameset rows="150,*">
+      <frame src="index.php?id=6&amp;type=1" name="top" />
+      <frame src="index.php?id=6&amp;type=2" name="bottom" />
+   </frameset>
+   <noframes>
+      <body bgcolor="#ffffff">
+      </body>
+   </noframes>

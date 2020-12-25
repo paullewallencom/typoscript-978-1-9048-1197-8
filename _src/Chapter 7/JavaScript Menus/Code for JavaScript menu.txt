@@ -1,0 +1,14 @@
+page.10.marks.MENU = HMENU
+page.10.marks.MENU.entryLevel = <0
+page.10.marks.MENU.1 = JSMENU
+page.10.marks.MENU.1 {
+   levels = 2
+   1{
+      wrap = |&nbsp;
+      showActive = 1
+      firstLabel = Please select
+   }
+2 > .1
+2.firstLabel = Sub-menu
+}
+}

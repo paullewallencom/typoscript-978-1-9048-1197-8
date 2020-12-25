@@ -1,0 +1,26 @@
+function main($content,$conf){
+   $this->conf=$conf;
+   $this->pi_setPiVarDefaults();
+   $this->pi_loadLL();
+   $content="";
+   $marker = array()
+
+   $template = $this->cObj->fileResource($conf["tmpl"]);
+   $template = $this->cObj->getSubpart($template, "###BODY_CONTENT###");
+   $template_reference = $this->cObj->
+   getSubpart($template, "###REFERENCE###");
+$result = $GLOBALS["TYPO3_DB"]->exec_SELECTquery("*","user_references_main", "deleted = 0 AND hidden = 0");
+
+if (mysql_error())  debug(array(mysql_error(),$query));
+   while ($row = mysql_fetch_row ($result)) 
+      {    
+         $marker["###CUSTOMER###"] = $row[7];
+         $marker["###SECTOR###"] = $row[8];
+         $content .=$this->cObj->substituteMarkerArrayCached
+         ($template_reference, $marker);
+}
+$content = $this->cObj->substituteSubpart
+($template, "###REFERENCE###", $content);
+return $content;
+  }
+}

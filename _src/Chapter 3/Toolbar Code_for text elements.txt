@@ -1,0 +1,5 @@
+RTE.default.disabled = 1
+RTE.config.tt_content.bodytext.types {
+   text.disabled = 0
+   textpic.disabled = 0
+}

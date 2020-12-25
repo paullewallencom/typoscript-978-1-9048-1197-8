@@ -1,0 +1,16 @@
+function main($content,$conf){
+   $this->conf=$conf;
+   $this->pi_setPiVarDefaults();
+   $this->pi_loadLL();
+   $content="";
+   $query = "SELECT * FROM user_references_main";
+   $result = mysql(TYPO3_db,$query);
+   if (mysql_error())  debug(array(mysql_error(),$query));
+   while ($row = mysql_fetch_row ($result)) 
+      {    
+         echo $row[7] . " - ";      
+         echo $row[8] . "<br />";  
+      }
+   return content;
+   }
+}

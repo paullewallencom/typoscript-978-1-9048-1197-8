@@ -1,0 +1,12 @@
+temp.mainTemplate = TEMPLATE
+temp.mainTemplate {
+   template = FILE
+   template.file = fileadmin/_temp_/hello.htm
+   workOnSubpart = BODY_CONTENT
+   subparts.BOLD = TEXT
+   subparts.BOLD.value = Hello World!
+}
+# Default PAGE object:
+page = PAGE
+page.typeNum = 0
+page.10 < temp.mainTemplate

@@ -1,0 +1,16 @@
+temp.mainTemplate = TEMPLATE
+temp.mainTemplate {
+   template = FILE
+   template.file = fileadmin/_temp_/hello.htm
+}
+page = PAGE
+page.typeNum = 0
+page.stylesheet = fileadmin/_temp_/css/css.css
+page.10 < temp.mainTemplate
+page.10.workOnSubpart = BODY_CONTENT
+page.10.marks.MENU = HMENU
+page.10.marks.MENU.1 = TMENU
+page.10.marks.MENU.1.NO {
+   before = &nbsp;  
+   after =  &nbsp; | |*| &nbsp;  |  |*|  &nbsp;
+}

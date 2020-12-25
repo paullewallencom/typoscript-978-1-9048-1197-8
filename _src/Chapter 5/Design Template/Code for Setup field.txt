@@ -1,0 +1,8 @@
+temp.mainTemplate = TEMPLATE
+temp.mainTemplate {
+   template = FILE
+   template.file = fileadmin/_temp_/hello.htm
+}
+page = PAGE
+page.typeNum = 0
+page.10 < temp.mainTemplate

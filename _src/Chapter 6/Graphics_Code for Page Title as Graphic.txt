@@ -1,0 +1,19 @@
+page.10.marks.IMAGE = IMAGE
+page.10.marks.IMAGE { 
+   wrap = | 
+   file = GIFBUILDER 
+   file {
+      XY = 140,[20.h]+80
+      backColor = #cccccc
+  20 = TEXT
+   20 {
+      case = upper 
+      angle = 90
+      text.field = title
+      fontSize = 40,30
+      fontFile = fileadmin/pala.ttf
+      fontColor = #000000
+      offset = 100,[20.h]+40
+      }
+   } 
+}

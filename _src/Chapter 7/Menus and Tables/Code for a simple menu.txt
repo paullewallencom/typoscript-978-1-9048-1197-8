@@ -1,0 +1,6 @@
+page.10.marks.MENU= HMENU
+page.10.marks.MENU.entryLevel = 0
+page.10.marks.MENU.1 = TMENU
+page.10.marks.MENU.1.NO {
+   allWrap = <tr><td>|</td></tr
+}

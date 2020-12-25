@@ -1,0 +1,6 @@
+plugin.feadmin.dmailsubscription.file.templateFile = fileadmin/_temp_/fe_admin_dmailsubscrip.tmpl
+plugin.feadmin.dmailsubscription.pid = 20
+plugin.feadmin.dmailsubscription.email = dk@myhost.de
+plugin.feadmin.dmailsubscription.emailName = My Company
+plugin.feadmin.dmailsubscription.wrap1 = <span> | </span>
+plugin.feadmin.dmailsubscription.wrap2 = <span> | </span>

@@ -1,0 +1,15 @@
+tt_content.mailform.20{
+   accessibility = 1
+REQ = 1
+layout = ###LABEL### ###FIELD###
+COMMENT.layout = ###LABEL###
+RADIO.layout = ###LABEL### <fieldset class="radio">###FIELD###</fieldset>
+LABEL.layout = ###LABEL### <span class="tue-field">###FIELD###</span>
+
+labelWrap.wrap = <span class="label">|<span>
+commentWrap.wrap=|
+radioWrap.wrap = <label>|</label>
+REQ.labelWrap.wrap = <span class="req-label">|</span>
+stdWrap.wrap = <fieldset class="csc-mailform">|</fieldset>
+params.radio = class="tue-radio"
+params.radio = class="tue-check"

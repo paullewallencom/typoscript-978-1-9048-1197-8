@@ -1,0 +1,4 @@
+<?php
+$chatuser=$GLOBALS['TSFE']->fe_user->user['username'];
+echo "<param name=\"nick\" value=\"".$chatuser."\" />";
+?>

@@ -1,0 +1,17 @@
+myObject = TEXT
+myObject {
+   value = Hello World!
+   textStyle.color.default = green
+   textStyle.size.default = 3
+}
+page = PAGE
+page {
+   typeNum = 0
+   10 =< myObject
+   10.value = Hello World! as reference
+   15 = HTML
+   15.value = <br />
+   20 < myObject
+   20.value = Hello World! as copy
+  }
+myObject.textStyle.size.default = 5

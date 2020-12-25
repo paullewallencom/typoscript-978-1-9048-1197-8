@@ -1,0 +1,6 @@
+page.10.marks {
+   PDF = IMAGE
+   PDF.file = fileadmin/_temp_/pdf.gif
+   PDF.postUserFunc = tx_pdfgenerator->makePdflink
+   PDF.stdWrap.postUserFunc = tx_pdfgenerator->makePdfLink
+}

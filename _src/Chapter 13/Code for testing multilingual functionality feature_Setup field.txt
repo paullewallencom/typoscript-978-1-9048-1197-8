@@ -1,0 +1,12 @@
+ config.linkVars = L
+config.sys_language_uid = 0
+config.language = en
+config.local_all = english
+[globalVar = GP:L = 0]
+   config.sys_language_uid = 0
+   config.language = en
+   config.local_all = english
+[globalVar = GP:L =1]
+   config.sys_language_uid = 1
+   config.language = de
+[global]

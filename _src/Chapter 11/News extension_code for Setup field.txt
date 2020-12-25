@@ -1,0 +1,16 @@
+plugin.tt_news.templateFile = fileadmin/_temp_/tt_news_template.tmpl
+plugin.tt_news.pid_list >
+plugin.tt_news.pid_list = {$pid_list}
+plugin.tt_news.recursive >
+plugin.tt_news.recursive = 1
+plugin.tt_news.singlePid = {$singlePid}
+plugin.tt_news {
+   archive = 1
+   datetimeDaysToArchive = 30
+   enableArchiveDate = 1
+   archiveTypoLink.parameter = {$archiveTypoLink}
+   reverseAMenu = 1
+}
+plugin.tt_news.displayList.date_stdWrap.strftime = %A %d. %B %Y
+plugin.tt_news.displayList.age_stdWrap.age = Min| Std| Tage| Jahr
+plugin.tt_news.displaySingle.age_stdWrap.age = Min| Std| Tage| Jahr

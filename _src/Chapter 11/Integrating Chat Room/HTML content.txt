@@ -1,0 +1,2 @@
+<applet code=IRCApplet.class codebase="fileadmin/_temp_/chat/" archive="irc.jar,pixx.jar" width=600 height=400>
+<param name="CABINETS" value="irc.cab,securedirc.cab,pixx.cab">

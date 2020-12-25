@@ -1,0 +1,22 @@
+RTE.default.userElements {
+   10 = Superscript/Subscript
+   10 {
+      1 = Superscript
+      1.description = Position text higher
+      1.mode = wrap
+      1.content = <sup>|</sup>
+      2 = Subscript
+      2.description = Position text lower
+      2.mode = wrap
+      2.content = <sub>|</sub>
+      }
+   20 = Special characters
+   20 {
+      3 = €
+      3.description = Euro
+      3.content = &euro;
+      4 = ©
+      4.description = Copyright
+      4.content = &copy;
+      }
+}

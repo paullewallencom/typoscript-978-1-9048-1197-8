@@ -1,0 +1,21 @@
+headerData.5 = COA
+headerData.5{
+   10 = TEXT
+   10.value(
+   <style type="text/css">
+      <!--
+)
+20 = COA
+20{
+   20 = TEXT
+   20{
+      value =
+      typolink{
+      parameter.data=page:uid
+      parameter.wrap = |,31
+      returnLast = url
+      }
+}
+stdWrap.wrap = @import url(|);
+}
+}

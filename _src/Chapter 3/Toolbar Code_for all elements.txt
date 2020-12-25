@@ -1,0 +1,4 @@
+options.RTEkeyList=
+bgcolor,bold,center,chMode,class,copy,cut,emoticon,fontsize,fontstyle,
+formatblock,indent,image,italic,left,line,link,outdent,orderedlist,paste,
+right,table,textcolor,underline,unorderedlist,user

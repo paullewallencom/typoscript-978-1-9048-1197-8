@@ -1,0 +1,6 @@
+page.10.marks {
+   PDF = TEXT
+   PDF.value = PDF version of this page
+   PDF.postUserFunc = tx_pdfgenerator->makePdflink
+   PDF.postUserFunc.target = _blank
+}

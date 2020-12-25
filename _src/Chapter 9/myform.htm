@@ -1,0 +1,59 @@
+<!-- ###TEMPLATE_FORM### begin
+  shows formular form to be filled out
+  -->      
+<form name="anfrage" action="index.php" method="post" enctype="multipart/form-data">
+   <input type="hidden" name="id" value="###PID###" />
+   <input type="hidden" name="submitted" value="1" />
+   <table border="0" cellspacing="0" cellpadding="2">
+      <tr class="normal">
+         <td width="30%" class="normal" scope="row">
+            <div align="left">
+               <label for="Name">Name</label>
+            </div>
+          </td>
+          <td width="70%">
+             <label>
+                <input name="name" type="text" 
+                id="name size="30" maxlength="50" />
+             </label>
+          </td>
+      </tr>
+      <tr class="normal">
+          <td class="normal" scope="row">
+             <div align="left">
+                <label for="email adress">E-Mail</label>
+             </div>
+          </td>
+          <td>
+             <label>
+                <input name="email" type="text" 
+                id="email" size="30" maxlength="50" />
+             </label>
+          </td>
+      </tr>       
+      <tr class="normal">
+          <td valign="top" class="normal" scope="row">
+             <div align="left">
+                <label>Memorandum</label>
+             </div>
+          </td>
+          <td valign="top">
+             <label>
+                <textarea name="memorandum" 
+                cols="35" rows="3" id="memorandum"></textarea>
+             </label>
+          </td>
+      </tr>
+      <tr class="normal">
+          <th valign="top" class="normal" scope="row">
+          </th>
+          <td>
+             <input name="Submit" type="submit" 
+             class="button" value="Send" />
+             <input name="delete" type="reset" 
+             class="button" id="delete" value="delete" />
+          </td>
+      </tr>
+   </table>
+</form>  
+<!-- ###TEMPLATE_FORM### end -->

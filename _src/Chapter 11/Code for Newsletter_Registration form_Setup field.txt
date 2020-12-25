@@ -1,0 +1,2 @@
+plugin.feadmin.dmailsubscription.evalErrors.email.uniqueLocal = This e-mail address has already been assigned
+plugin.feadmin.dmailsubscription.evalErrors.email.email = Please enter an e-mail address

@@ -1,0 +1,21 @@
+function main($content,$conf) {
+   $this->conf=$conf;
+   $this->pi_setPiVarDefaults();
+   $this->pi_loadLL();
+   $content="";
+
+   $template = $this->cObj->
+   fileResource("fileadmin/_temp_/references.htm");
+   return $template;	
+
+$result = $GLOBALS["TYPO3_DB"]->exec_SELECTquery("*","user_references_main", "deleted = 0 AND hidden = 0", "", "", "0,2");
+
+if (mysql_error())  debug(array(mysql_error(),$query));
+   while ($row = mysql_fetch_row ($result)) 
+      {    
+         echo mysql_real_escape_string($row[7]) . " - ";      
+         echo mysql_real_escape_string($row[8]) . "<br />";  
+      }
+return content;
+   }
+}

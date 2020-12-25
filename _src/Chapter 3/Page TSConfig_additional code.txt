@@ -1,0 +1,30 @@
+RTE.default.disableColorPicker = 1
+RTE.default.disableSelectColor = 0
+RTE.colors {
+   color1 {
+      name = orange
+      value = #ff6600
+   }
+   color2 {
+      name = blue
+      value = #3366ff
+   }
+
+   color3 {
+      name = light grey
+      value = #f1f1ff
+   }
+   color4 {
+      name = black
+      value = #000000
+   }
+   color5 {
+      name = white
+      value = #ffffff
+   }
+   color6 {
+      name = grey
+      value = #999999
+   }
+}
+RTE.default.colors = color1, color2, color3, color4, color5, color6

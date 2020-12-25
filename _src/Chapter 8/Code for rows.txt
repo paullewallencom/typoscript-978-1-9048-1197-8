@@ -1,0 +1,7 @@
+myframeset.frameSet.rows = 150,*
+myframeset.frameSet {
+   10 = FRAME
+   10.obj = top
+   20 = FRAME
+   20.obj = bottom
+}

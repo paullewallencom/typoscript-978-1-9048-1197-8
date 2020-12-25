@@ -1,0 +1,32 @@
+myCSS = PAGE
+myCSS{
+   typeNum = 31
+   config.disableAllHeaderCode = 1
+   config.additionalHeaders = Content-type:text/css
+   config.admPanel = 0
+20 = TEMPLATE
+20{
+   template = FILE
+   template = fileadmin/_temp_/layout/styles.css
+   marks.fontsize = TEXT
+   marks.fontsize.value = 100.01%
+   marks.color = TEXT
+   marks.color.value = #fff000
+   marks.background = TEXT
+   marks.background.value = #ffffff
+}
+}
+[globalVar = GP:font = 1]
+myCSS.20.marks.fontsize.value = 150.01%
+[global]
+[globalVar = GP:font = 0]
+myCSS.20.marks.fontsize.value = 100.01%
+[global]
+[globalVar = GP:font = 1]
+myCSS.20.marks.color.value = #0000ff
+myCSS.20.marks.background.value = #00ffffff
+[global]
+[globalVar = GP:font = 0]
+meinCSS.20.marks.color.value = #008080
+meinCSS.20.marks.background.value = #c0c0c0
+[global]

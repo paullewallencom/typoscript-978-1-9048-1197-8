@@ -1,0 +1,9 @@
+page = PAGE
+page.typeNum = 0
+[browser = msie]
+page.20 = HTML
+page.20.value = You are using Internet Explorer
+[ELSE]
+page.20 = HTML
+page.20.value = You are using another browser
+[GLOBAL]

@@ -1,0 +1,12 @@
+page.10.marks.MENU = HMENU
+page.10.marks.MENU.1 = GMENU
+page.10.marks.MENU.1.NO {
+   backColor = #aaaaaa
+   XY = [10.w]+10, 20
+   10 = TEXT
+   10.text.field = title
+   10.fontFile = fileadmin/verdana.ttf
+   10.fontSize = 11
+   10.offset = 4,10
+   wrap = | <br />
+}

@@ -1,0 +1,3 @@
+page.config.index_enable = 1
+page.config.index_externals = 1
+page.config.language = en

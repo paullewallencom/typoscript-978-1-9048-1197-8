@@ -1,0 +1,17 @@
+content.defaultHeaderType = 1
+content.wrap.header1 = <h1 style="color:{$h1_colour.value};">|</h1>
+content.wrap.header2 = <h2 style="color:{$h2_colour.value};">|</h2>
+content.wrap.header3 = <h3 style="color:{$h3_colour.value};">|</h3>
+content.wrap.header4 = <h4 style="color:{$h4_colour.value};">|</h4>
+
+#cat=colorDefinition;type=color;label=Colour of h1
+h1_colour.value = maroon
+
+#cat=colorDefinition; type=color;label=Colour of h2
+h2_colour.value = green
+
+#cat=colorDefinition; type=color;label=Colour of h3
+h3_colour.value = silver
+
+#cat=colorDefinition; type=color;label=Colour of h4
+h4_colour.value = lime

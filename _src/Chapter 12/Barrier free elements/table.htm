@@ -1,0 +1,44 @@
+<table summary="This table displays an expense report" id="expenses" rules="all">
+<caption>Expenses</caption>
+   <colgroup>
+      <col width="50"  />
+      <col width="40"  span="4"  />
+   </colgroup>
+<thead class="header">
+   <tr class="content">
+      <th abbr="Expenses" id="together" class="first">city</th>
+      <th scope="col" id="flight" class="second">trip</th>
+      <th scope="col" id="hotel" class="three">Hotel</th>
+      <th scope="col" id="meal" class="four">meals</th>
+      <th scope="col" id="total" class="five">Total</th>
+   </tr>
+</thead>
+<tfoot class="footer">
+   <tr class="content">
+      <th scope="row" class="first">Total:</th>
+      <td class="two">600</td>
+      <td class="three">400</td>
+      <td class="four">300</td>
+      <td class="five">1300</td>
+   </tr>
+</tfoot>
+<tbody class="body">
+   <tr class="content">
+      <th scope="rowgroup" 
+        headers="train hotel meal" class="first">Berlin</th>
+   </tr>
+   <tr class="content">
+      <td scope="row" 
+         headers="flight hotel entertainment" class="first">July</td>
+      <td class="two">200</td>
+      <td class="three">140</td>
+      <td class="four">69</td>
+   </tr>
+   <tr class="content">
+      <td scope="row" headers="train hotel meal" class="first">August</td>
+      <td class="two">200</td>
+      <td class="three">100</td>
+      <td class="four">130</td>
+   </tr>
+</tbody>
+</table>
